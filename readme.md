@@ -1,4 +1,4 @@
-# claude-opus-debug-assistant
+# Claude-opus-debug-assistant
 
 A CLI tool that takes any bug description and returns a structured debugging plan — root causes, reproduction steps, fixes, and prevention — powered by Claude Opus 4.6 with adaptive thinking.
 
@@ -102,6 +102,3 @@ instead of reading what the researcher wrote.
 Opus 4.6 with adaptive thinking decides on its own when a problem needs deep reasoning and when it doesn't. For complex bugs like race conditions, agent state issues, or memory leaks it reasons through multiple hypotheses before responding — not just surface-level suggestions.
 
 ---
-# Author
-
-Built by [tulika105](https://github.com/tulika105)
