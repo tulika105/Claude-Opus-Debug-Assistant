@@ -23,7 +23,6 @@ Every session is automatically saved as a JSON file in the `sessions/` folder.
 
 - `debug_assistant.py` — main script that takes your bug as input and returns a full debugging plan
 - `requirements.txt` — dependencies needed to run the project
-- `.env` — stores your Anthropic API key locally (not pushed to GitHub)
 - `sessions/` — auto-generated folder that saves every query and response as a JSON file
 
 ---
