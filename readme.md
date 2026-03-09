@@ -1,6 +1,8 @@
-# Debug With Claude Opus 4.6
+# claude-opus-debug-assistant
 
 A CLI tool that takes any bug description and returns a structured debugging plan — root causes, reproduction steps, fixes, and prevention — powered by Claude Opus 4.6 with adaptive thinking.
+
+> **Adaptive thinking** means Claude Opus 4.6 decides on its own how much reasoning to apply. Simple bugs get fast answers. Complex bugs — race conditions, memory leaks, agent state issues — trigger deeper internal reasoning before a response is generated. You only see the final output, but the quality difference on hard problems is significant.
 
 ---
 
@@ -21,6 +23,7 @@ Every session is automatically saved as a JSON file in the `sessions/` folder.
 
 - `debug_assistant.py` — main script that takes your bug as input and returns a full debugging plan
 - `requirements.txt` — dependencies needed to run the project
+- `.env` — stores your Anthropic API key locally (not pushed to GitHub)
 - `sessions/` — auto-generated folder that saves every query and response as a JSON file
 
 ---
@@ -99,3 +102,6 @@ instead of reading what the researcher wrote.
 Opus 4.6 with adaptive thinking decides on its own when a problem needs deep reasoning and when it doesn't. For complex bugs like race conditions, agent state issues, or memory leaks it reasons through multiple hypotheses before responding — not just surface-level suggestions.
 
 ---
+# Author
+
+Built by [tulika105](https://github.com/tulika105)
